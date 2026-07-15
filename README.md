@@ -22,9 +22,9 @@ First run the docker container:
         ./docker/run.sh
 
 
-hi 
+hi
 
-        hihi
+`hihihi`
 
 Then navigate to the classification folder: cd python/training/classification
 
