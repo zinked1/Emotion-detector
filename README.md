@@ -24,7 +24,7 @@ First run the docker container:
 
 hi 
 
-  hihi
+        hihi
 
 Then navigate to the classification folder: cd python/training/classification
 
