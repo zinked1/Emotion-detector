@@ -6,16 +6,18 @@ I used a classification AI and took 150 photos for each emotion to train my mode
 
 
 ### Running this project
+---
 
-        1. Get a Jetson nano and set it up with Visual studio Code
+ 1. Get a Jetson nano and set it up with Visual studio Code
 
-        2. In the VS code terminal navigate to the classification/data folder
+ 2. In the VS code terminal navigate to the classification/data folder
 
-        3. Import the file called testdataset. I proved into the data file that is under classification. The file name is testdataset
+ 3. Import the file called testdataset. I proved into the data file that is under classification. The file name is testdataset
         
 Then in the vs code terminal, run these commands
 
 First run the docker container: 
+
         `cd ~/jetson-inference/
         ./docker/run.sh`
 
