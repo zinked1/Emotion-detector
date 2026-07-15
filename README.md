@@ -1,31 +1,23 @@
 # Emotion-detector
 Detects happy, sad, and neutral
 
-
-Cool Emotion Detector
-Detects if you are happy, sad, or neutral
-
-The Algorithm
-Basically I used a classification AI and took 150 photos for each emotion to train it so it can easily tell peoples emotion based on the photo they give the AI.
-Running this project
+### The Algorithm
+I used a classification AI and took 150 photos for each emotion to train my model so it can easily tell a persons emotion based on the photo they give the AI.
 
 
+### Running this project
 
+        1. Get a Jetson nano and set it up with Visual studio Code
 
+        2. In the VS code terminal navigate to the classification/data folder
 
-
-
-Get a Jetson nano and set it up with Visual studio Code
-
-Then in the VS code terminal navigate to the classification data folder
-
-
-Import the file called test I proved into the data file that is under classification. The file name is testdataset
+        3. Import the file called testdataset. I proved into the data file that is under classification. The file name is testdataset
         
 Then in the vs code terminal, run these commands
 
-First run the docker container: cd ~/jetson-inference/
-./docker/run.sh
+First run the docker container: 
+        `cd ~/jetson-inference/
+        ./docker/run.sh`
 
 
 
