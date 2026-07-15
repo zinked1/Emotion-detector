@@ -18,11 +18,13 @@ Then in the vs code terminal, run these commands
 
 First run the docker container: 
 
-        `cd ~/jetson-inference/
-        ./docker/run.sh`
+        cd ~/jetson-inference/
+        ./docker/run.sh
 
 
+hi 
 
+  hihi
 
 Then navigate to the classification folder: cd python/training/classification
 
