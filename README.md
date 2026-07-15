@@ -16,7 +16,13 @@ _image_
  3. Import the file called testdataset. Put the file under the directory "data".
 <img width="423" height="312" alt="image" src="https://github.com/user-attachments/assets/52d55107-3c4c-4b7c-8fc0-5a6e54de8ea3" />
 
-        
+
+
+
+
+
+
+    
 Then in the vs code terminal, run these commands
 
 First run the docker container: 
@@ -57,5 +63,26 @@ Finally this last script will load the AI model and test it. The last line of th
         --input_blob=input_0 \
         --output_blob=output_0 \
         $DATASET/test/Happy/20260708-121802.jpg output.jpg
+
+
+
+
+
+
+This was my output: 
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/203e0c0f-f5a5-4f52-9109-35fa4dd32ffe" />
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Video: https://youtu.be/UZlo-VSbg6c 
