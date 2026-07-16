@@ -4,9 +4,6 @@ Detects happy, sad, and neutral
 ### The Algorithm
 I used a classification AI and took 150 photos for each emotion to train my model so it can easily tell a persons emotion based on the photo they give the AI.
 
-### Example:
-
-_image_
 ### Running this project
 
  1. Get a Jetson nano and set it up with Visual studio Code
